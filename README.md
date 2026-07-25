@@ -8,7 +8,7 @@
 A full frontend + backend personal portfolio, built with Next.js 14 (App Router)
 and Tailwind CSS, styled after Roman inscriptions on a cream/parchment background.
 
-**Live:** _add your Vercel URL here once deployed_
+**Live:** https://jashwanth-portfolio-tan.vercel.app/
 
 ## What's inside
 
