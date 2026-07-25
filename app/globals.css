@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-cinzel: "Cinzel", serif;
+  --font-cinzel-decorative: "Cinzel Decorative", serif;
+  --font-garamond: "EB Garamond", serif;
+  --font-cormorant-sc: "Cormorant SC", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f1e7ce;
+  background-image: radial-gradient(
+      ellipse at 20% 10%,
+      rgba(169, 121, 61, 0.1),
+      transparent 45%
+    ),
+    radial-gradient(ellipse at 85% 30%, rgba(140, 47, 30, 0.06), transparent 40%),
+    radial-gradient(ellipse at 50% 90%, rgba(75, 107, 93, 0.07), transparent 45%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.05'/%3E%3C/svg%3E");
+  color: #2e2a20;
+}
+
+::selection {
+  background: #8c2f1e;
+  color: #faf3e0;
+}
+
+.text-engraved {
+  text-shadow: 0.5px 0.5px 0 rgba(255, 255, 255, 0.55),
+    -1px -1px 1px rgba(46, 42, 32, 0.35), 1px 2px 3px rgba(46, 42, 32, 0.18);
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.plate-top::before {
+  content: "";
+  display: block;
+  height: 6px;
+  margin: -1px -1px 26px -1px;
+  background: repeating-linear-gradient(
+    90deg,
+    #a9793d 0 14px,
+    #c99a56 14px 28px
+  );
+}
