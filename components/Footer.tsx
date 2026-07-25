@@ -28,13 +28,13 @@ export default function Footer() {
           GitHub
         </a>
         <a
-          href="mailto:[email protected]"
+          href="mailto: jashwanthsai268@gmail.com"
           className="font-label tracking-[0.14em] uppercase text-[0.88rem] border border-bronze text-bronzelight px-6 py-3 hover:bg-bronze hover:text-ink transition-colors"
         >
           Email
         </a>
         <a
-          href="#"
+          href="https://www.linkedin.com/in/jashwanth-sai-242a4428b/"
           target="_blank"
           rel="noopener noreferrer"
           className="font-label tracking-[0.14em] uppercase text-[0.88rem] border border-bronze text-bronzelight px-6 py-3 hover:bg-bronze hover:text-ink transition-colors"

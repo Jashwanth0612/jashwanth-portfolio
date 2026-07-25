@@ -9,7 +9,7 @@ const siteDescription =
 export const metadata: Metadata = {
   // TODO: once deployed, replace with your real Vercel/custom domain so
   // social-share previews (OG image) resolve correctly.
-  metadataBase: new URL("https://jashwanth-portfolio.vercel.app"),
+  metadataBase: new URL("https://jashwanth-portfolio-tan.vercel.app"),
   title: {
     default: "Jashwanth — Computer Vision & Machine Learning",
     template: "%s — Jashwanth",
