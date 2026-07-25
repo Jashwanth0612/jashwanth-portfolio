@@ -7,6 +7,7 @@ export type Project = {
   stack: string[];
   status: string;
   deployment: string;
+  liveUrl?: string;
   whatIDid: string[];
   howIDidIt: string[];
   skills: string[];
@@ -134,6 +135,7 @@ export const projects: Project[] = [
     stack: ["React", "Tailwind CSS", "Node.js"],
     status: "Live",
     deployment: "Deployed as the company's public website.",
+    liveUrl: "https://wipro-fire-safety-7gm6.vercel.app/",
     whatIDid: [
       "Designed and built the entire site solo — layout, product presentation, and company information — for a real, operating business.",
       "Handled everything from the frontend UI to the backend/server setup and deployment.",

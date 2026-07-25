@@ -71,11 +71,11 @@ export default function Home() {
                 {[
                   ["Institution", "VNRVJIET, Hyderabad"],
                   ["Discipline", "ECE · Class of 2027"],
-                  ["CGPA", "7.9"],
+                  ["CGPA", "8.05"],
                   ["Research Post", "Intern, DIA-CoE (IIT Hyderabad)"],
                   ["Research Focus", "All-Weather Detection"],
                   ["Patents Filed", "2"],
-                  ["Papers", "1 under review"],
+                  ["Papers", "3 under review"],
                   ["Best mAP@0.5", "0.97"],
                   ["Also Building", "Full-stack apps & AI agents"],
                 ].map(([label, value]) => (
